@@ -1,0 +1,52 @@
+.row {
+    width: 50%;
+}
+h1 {
+    background: rgba(0, 0, 0, 0.5);
+}
+#header {
+    margin: 0 auto;
+}
+.menu {
+    margin: 0 auto !important;
+    margin-bottom: 3px !important;
+    padding: 0;
+    padding-top: 7px;
+    padding-left: 7px;
+    background-color: aliceblue;
+}
+#desc {
+    white-space: nowrap;
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+#status {
+    float: right;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover,:visited,:focus,:active {
+    text-decoration: none !important;
+}
+.media-object {
+    width: 60px !important;
+}
+.media-body {
+    height: 54px;
+    text-align:left;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+@media screen only and (max-height: 768px) {
+    
+}
